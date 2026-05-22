@@ -56,8 +56,10 @@ function handleSubmit(e) {
 window.addEventListener('scroll', () => {
   const header = document.querySelector('.site-header');
   if (window.scrollY > 60) {
-    header.style.background = 'rgba(6,14,28,.98)';
+    header.style.background = 'rgba(255,255,255,.98)';
+    header.style.boxShadow = '0 2px 20px rgba(0,0,0,.12)';
   } else {
-    header.style.background = 'rgba(10,15,30,.92)';
+    header.style.background = '';
+    header.style.boxShadow = '';
   }
 });
