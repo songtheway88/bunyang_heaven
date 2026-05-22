@@ -17,8 +17,8 @@
 
 /* ===== HEADER NAV ===== */
 .header-nav { display: flex; gap: 24px; align-items: center; }
-.header-nav a { color: rgba(255,255,255,.7); font-size: 14px; font-weight: 500; transition: color .2s; }
-.header-nav a:hover { color: var(--cyan); }
+.header-nav a { color: rgba(15,23,42,.65); font-size: 14px; font-weight: 500; transition: color .2s; }
+.header-nav a:hover { color: var(--blue); }
 @media (max-width: 900px) { .header-nav { display: none; } }
 
 /* ===== SEO INTRO ===== */
@@ -127,8 +127,8 @@
 
 /* ===== FOOTER NAV ===== */
 .footer-nav { display: flex; gap: 20px; justify-content: center; margin-bottom: 20px; flex-wrap: wrap; }
-.footer-nav a { color: rgba(255,255,255,.5); font-size: 13px; transition: color .2s; }
-.footer-nav a:hover { color: var(--cyan); }
+.footer-nav a { color: rgba(15,23,42,.5); font-size: 13px; transition: color .2s; }
+.footer-nav a:hover { color: var(--blue); }
 .footer-inner { text-align: center; }
 .footer-logo { margin-bottom: 16px; display: flex; align-items: center; }
 .footer-logo img { height: 36px; width: auto; display: block; }
@@ -255,9 +255,10 @@ ul { list-style: none; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 100;
-  background: rgba(10,15,30,.92);
+  background: rgba(255,255,255,.97);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255,255,255,.08);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  box-shadow: 0 1px 8px rgba(0,0,0,.06);
 }
 .header-inner {
   display: flex;
@@ -896,16 +897,16 @@ ul { list-style: none; }
 
 /* ===== FOOTER ===== */
 .site-footer {
-  background: #060e1c;
-  border-top: 1px solid rgba(255,255,255,.06);
+  background: #f1f5f9;
+  border-top: 1px solid rgba(0,0,0,.08);
   padding: 48px 0 32px;
 }
 .footer-inner { text-align: center; }
-.footer-logo { font-size: 24px; font-weight: 900; color: #fff; margin-bottom: 20px; }
+.footer-logo { font-size: 24px; font-weight: 900; color: #0f172a; margin-bottom: 20px; }
 .footer-info { margin-bottom: 16px; }
-.footer-info p { color: rgba(255,255,255,.4); font-size: 13px; line-height: 1.8; }
-.footer-info a { color: var(--cyan); text-decoration: underline; }
-.footer-copy { color: rgba(255,255,255,.2); font-size: 12px; }
+.footer-info p { color: rgba(15,23,42,.55); font-size: 13px; line-height: 1.8; }
+.footer-info a { color: var(--blue); text-decoration: underline; }
+.footer-copy { color: rgba(15,23,42,.35); font-size: 12px; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
